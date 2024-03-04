@@ -1,0 +1,110 @@
+#title{
+
+}
+#title .titlebg{
+
+  background-image: url(../img/title/title-bg.png);
+  height: 1079px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+#title .titlebg::before{
+  content:"";
+  display: block;
+  background-image: url(../img/title/jr-pc-main-v3.png);
+  background-size: contain;
+  width: 120%;
+  height: 100%;  
+  position: absolute;
+  top: 0;
+  
+  z-index: -1;
+  right: -497px;
+}
+#title .titlebg .titleft{
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+#title .titlebg .titleft h2{
+
+  font-size: 32px;
+  font-weight: 600;
+}
+#title .titlebg .titleft img{
+
+  width: 432px;
+  margin-top: 30px;
+}
+#title .titlebg .titleft h4{
+
+  color: #6c768e;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 40px;
+  font-size: 32px;
+}
+#title .titlebg .titleft p{
+
+  background-color: #dbe4f2;
+  color: #6c768e;
+  font-size: 22px;
+  margin: 30px 0;
+  width: 281px;
+  height: 49px;
+  line-height: 2.1;
+  padding: 0 20px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+#title .titlebg .titleft p::after{
+  content:"";
+  background-image: url(../img/title/ico_notice.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: -5px;
+  margin-left: 7px;
+}
+#title .titlebt {
+   
+  margin-top: 20px;
+}
+#title .titlebt .cursor{
+
+  width: 169px;
+  height: 79px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  border: initial;
+  font-size: 28px;
+  font-weight: 600;
+}
+#title .titlebt .cursor:hover{
+  border-radius: 12px 12px 0px 0px;
+}
+#title .titlebg>button{
+
+  /*! display: block; */
+  background-image: url(../img/title/btn_down.png);
+  width: 50px;
+  height: 50px;
+  font-size: 0;
+  background-size: contain;
+  position: absolute;
+  right: 50%;
+  bottom: 50px;
+  box-shadow: 0 10px 10px 5px #3838381c;
+  border: initial;
+  border-radius: 50%;
+}

@@ -1,0 +1,66 @@
+section#product {
+
+}
+section#product .wrap {
+
+}
+section#product .wrap h2 {
+  
+}
+section#product .wrap ul {
+
+}
+section#product .wrap ul li {
+  width: 360px;
+  height: 360px;
+}
+section#product .wrap ul li:first-child{
+  /*! background-image: url(../img/pd1.png); */
+  /*! background-repeat: no-repeat; */
+  /*! background-position: right bottom; */
+  /*! background-size: 38%; */
+}
+section#product .wrap ul li a {
+  /*  에니메이션 효과  */
+  /*! transition: all 1s; */
+
+}
+section#product .wrap ul li a:hover{
+ 
+}
+section#product .wrap ul li a::after {
+  
+}
+section#product .wrap ul li a h3 {
+
+}
+section#product .wrap ul li a p {
+
+}
+section#product .wrap .pdetail {
+
+}
+section#product .wrap .pdetail article {
+
+}
+section#product .wrap .pdetail article:not(:first-child) {
+
+}
+section#product .wrap .pdetail article hgroup {
+  
+}
+section#product .wrap .pdetail article hgroup h3 {
+  
+}
+section#product .wrap .pdetail article hgroup h4 {
+  
+}
+section#product .wrap .pdetail article p.h4 {
+  
+}
+section#product .wrap .pdetail article p.p {
+  
+}
+section#product .wrap .pdetail article img {
+
+}
