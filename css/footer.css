@@ -18,9 +18,8 @@ footer .wrap .ftc img{
   width: 180px;
 }
 footer .wrap .ftc ul{
-  
   display: flex;
-  gap: 20px;
+  gap: 15px;
 }
 footer .wrap .ftc ul li{
   
