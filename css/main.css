@@ -1,6 +1,7 @@
 main {
   
 }
+/* 섹션1 */
 main section#one {
   
   padding-top: 200px;
@@ -70,6 +71,7 @@ main section#one div.wrap .slideRe div span {
   font-size: 18px;
   font-weight: 500;
 }
+/* 섹션2 */
 section#two{
   padding-top: 150px;
 }
@@ -117,6 +119,7 @@ section#two .wrap p{
   line-height: 2.2;
   margin-top: 50px;
 }
+/* 섹션3 */
 section#three{
   max-width: 100%;
   width: 100%;
@@ -271,7 +274,7 @@ section#three .wrap .subImg li:nth-child(2)::before{
   content:"";
   background-image: url(../img/main/main3-01-02.png);
   width: 1062px;
-  height: 704px;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: contain;
   display: block;
@@ -280,7 +283,7 @@ section#three .wrap .subImg li:nth-child(3)::before{
   content:"";
   background-image: url(../img/main/main3-01-03.png);
   width: 1062px;
-  height: 704px;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: contain;
   display: block;
@@ -289,7 +292,7 @@ section#three .wrap .subImg li:nth-child(4)::before{
   content:"";
   background-image: url(../img/main/main3-01-04.png);
   width: 1062px;
-  height: 704px;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: contain;
   display: block;
@@ -298,7 +301,7 @@ section#three .wrap .subImg li:nth-child(5)::before{
   content:"";
   background-image: url(../img/main/main3-01-05.png);
   width: 1062px;
-  height: 704px;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: contain;
   display: block;
@@ -312,4 +315,54 @@ section#three .wrap h3{
 section#three .wrap h3 span{
 
   color: #00bdfb;
+}
+/* 섹션4 */
+section#four{
+
+}
+section#four .wrap{
+  
+  position: relative;
+}
+section#four .wrap h2{
+  font-weight: 600;
+  text-align: center;
+}
+section#four .wrap h2::after{
+  content:"";
+  border-bottom: solid 20px #ffcd03;
+  display: block;
+  border-radius: 5px;
+  position: absolute;
+  top: 31px;
+  width: 119px;
+  right: 366px;
+  z-index: -1;
+}
+section#four .wrap .cen{
+  
+}
+section#four .wrap .cen.one{
+  
+}
+section#four .wrap .cen.two{
+  
+}
+section#four .wrap .cen.three{
+  
+}
+section#four .wrap .cen.four{
+  
+}
+section#four .wrap .cen h3{
+  
+}
+section#four .wrap .cen ul{
+  
+}
+section#four .wrap .cen ul li{
+  
+}
+section#four .wrap .cen ul li p{
+  
 }
