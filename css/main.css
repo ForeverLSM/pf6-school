@@ -3,11 +3,9 @@ main {
 }
 /* 섹션1 */
 main section#one {
-  
   padding-top: 200px;
 }
 main section#one div.wrap {
-  
   background-image: url(../img/main/main1_bg.png);
   background-repeat: no-repeat;
   background-size: 1500px;
@@ -76,11 +74,9 @@ section#two{
   padding-top: 150px;
 }
 section#two .wrap{
-
   position: relative;
 }
 section#two .wrap h2{
-
   text-align: center;
   font-weight: 600;
 }
@@ -96,7 +92,6 @@ section#two .wrap h2::after{
   right: 213px;
 }
 section#two .wrap h3{
-
   text-align: center;
   margin-top: 30px;
   font-size: 30px;
@@ -132,11 +127,9 @@ section#three{
   position: relative;
 }
 section#three .wrap{
-
   position: relative;
 }
 section#three .wrap h2{
-
   font-weight: 600;
   text-align: center;
 }
@@ -152,7 +145,6 @@ section#three .wrap h2::after{
   z-index: -1;
 }
 section#three .wrap .threeSub{
-
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
@@ -230,7 +222,6 @@ section#three .wrap .threeSub li:nth-child(5) a::before{
   margin-right: 20px;
 }
 section#three .wrap .subImg{
-  
   padding-top: 50px;
   box-sizing: border-box;
 }
@@ -238,7 +229,7 @@ section#three .wrap .subImg li{
   font-size: 0;
 }
 section#three .wrap .subImg li:not(:first-child){
-     display: none;
+  display: none;
 }
 section#three .wrap .subImg li:nth-child(1)::before{
   content:"";
@@ -292,15 +283,13 @@ section#three .wrap h3{
   font-weight: 600;
 }
 section#three .wrap h3 span{
-
   color: #00bdfb;
 }
 /* 섹션4 */
 section#four{
-
+  padding: 200px 0px 100px 0px;
 }
 section#four .wrap{
-  
   position: relative;
 }
 section#four .wrap h2{
@@ -319,7 +308,6 @@ section#four .wrap h2::after{
   z-index: -1;
 }
 section#four .wrap .cen{
-  
   width: 882px;
   margin: 0 auto;
   margin-top: 80px;

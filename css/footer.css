@@ -1,14 +1,26 @@
 footer{
   
+  background-color: #f1f5fb;
+  height: 250px;
 }
 footer .wrap{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+}
+footer .wrap .ftc{
   
+  display: flex;
+  justify-content: space-between;
 }
 footer .wrap .ftc img{
-  
+  width: 180px;
 }
 footer .wrap .ftc ul{
   
+  display: flex;
+  gap: 20px;
 }
 footer .wrap .ftc ul li{
   
@@ -16,8 +28,48 @@ footer .wrap .ftc ul li{
 footer .wrap .ftc ul li a{
   
 }
+footer .wrap .ftc ul li:nth-child(1) a{
+  background-image: url(../img/footer/icon_store.png);
+  display: block;
+  width: 78px;
+  height: 42px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+footer .wrap .ftc ul li:nth-child(2) a{
+  
+  background-image: url(../img/footer/ico_footer_blog.png);
+  display: block;
+  width: 42px;
+  height: 42px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+footer .wrap .ftc ul li:nth-child(3) a{
+  
+  background-image: url(../img/footer/ico_footer_ytube.png);
+  display: block;
+  width: 42px;
+  height: 42px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+footer .wrap .ftc ul li:nth-child(4) a{
+  
+  background-image: url(../img/footer/ico_footer_insta.png);
+  display: block;
+  width: 42px;
+  height: 42px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 footer .wrap p{
   
+  font-size: 13px;
+  color: #8a909e;
+  margin-top: 30px;
+  line-height: 2;
 }
 footer .wrap p span{
   
