@@ -173,28 +173,7 @@ section#three .wrap .threeSub li a{
   background-color: white;
   line-height: 2.8;
 }
-section#three .wrap .threeSub li a::before{
-  content: "";
-  background-image: url(../img/main/main3-01.png);
-  width: 34px;
-  height: 34px;
-  display: inline-block;
-  background-repeat: no-repeat;
-  background-size: contain;
-  vertical-align: sub;
-  margin-right: 20px;
-}
-section#three .wrap .threeSub li a::before{
-  content: "";
-  background-image: url(../img/main/main3-01.png);
-  width: 34px;
-  height: 34px;
-  display: inline-block;
-  background-repeat: no-repeat;
-  background-size: contain;
-  vertical-align: sub;
-  margin-right: 20px;
-}
+
 section#three .wrap .threeSub li:nth-child(1) a::before{
   content: "";
   background-image: url(../img/main/main3-01.png);
@@ -341,28 +320,50 @@ section#four .wrap h2::after{
 }
 section#four .wrap .cen{
   
+  width: 882px;
+  margin: 0 auto;
+  margin-top: 80px;
 }
 section#four .wrap .cen.one{
   
 }
 section#four .wrap .cen.two{
   
+  display: none;
 }
 section#four .wrap .cen.three{
   
+  display: none;
 }
 section#four .wrap .cen.four{
   
+  display: none;
 }
 section#four .wrap .cen h3{
-  
+  background-color: #f2f5fb;
+  height: 374px;
+  border-radius: 30px 30px 30px 0px;
+  font-size: 30px;
+  font-weight: 500;
+  color: #1d3764;
+  line-height: 1.5;
+  padding: 50px;
+  box-sizing: border-box;
 }
 section#four .wrap .cen ul{
-  
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px 50px 50px;
 }
 section#four .wrap .cen ul li{
   
 }
-section#four .wrap .cen ul li p{
+section#four .wrap .cen ul li p{  
+  font-size: 30px;
+  color: #1d3764;
+  line-height: 1.2;
+}
+section#four .wrap .cen ul li p span{
   
+  font-weight: 700;
 }
