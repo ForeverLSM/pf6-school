@@ -118,7 +118,7 @@ main .h2::before{
 
 /* 안보이게 */
 .hide{
-  display: none;
+  display: none !important;
 }
 
 /*마우스 커서 변환*/

@@ -1,5 +1,6 @@
 #title{
-
+  position: relative;
+  z-index: -1;
 }
 #title .titlebg{
   background-image: url(../img/title/title-bg.png);
@@ -103,7 +104,6 @@
   border-radius: 12px 12px 0px 0px;
 }
 #title .titlebg>button{
-
   /*! display: block; */
   background-image: url(../img/title/btn_down.png);
   width: 50px;

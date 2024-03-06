@@ -29,14 +29,46 @@
             });
            return false;
         });*/
+        $(window).scroll(function(){
+            //헤드애니
+            if($(window).scrollTop()>$("header").height()){//윈도우의 scrollTop위치값이 ~보다 커지면
+               //header에게 class를 붙이시오
+               $("header").addClass("headsub");
+                }else{//그렇지 않는다면..
+           //   $("body").css("padding-top","0px");
+               $("header").removeClass("headsub")               
+            }
+         });
     </script>
+       <!-- slick 링크-->
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+   <script type="text/javascript">
+       $(document).ready(function(){
+            $('.slideRe').slick({
+                    centerMode: true,
+                    centerPadding: '120px',
+                    infinite: true,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 3000,
+                    speed:500,
+                    dots: false,
+                    arrows: true
+            });
+        });
+
+   </script>
        <!-- aos 링크 -->
    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
    <script type="text/javascript">
-      $(document).ready(function(){
-          AOS.init();
-      });
+        $(document).ready(function(){
+            AOS.init();
+        });
     </script>
 </head>
 <body>
@@ -49,6 +81,33 @@
                 <li class="h6"><a href="">커리큘럼</a></li>
                 <li class="h6"><a href="">워크북</a></li>
                 <li class="h6"><a href="">고객센터</a></li>
+            </ul>
+        </div>
+        <div class="headernav">
+            <ul class="curry hide">
+                <li>
+                    <a href="">수학</a>
+                </li>
+                <li>
+                    <a href="">놀이코딩</a>
+                </li>
+                <li>
+                    <a href="">논리</a>
+                </li>
+                <li>
+                    <a href="">AI놀이</a>
+                </li>
+                <li>
+                    <a href="">사회성</a>
+                </li>
+            </ul>
+            <ul class="work">
+                <li>
+                    <a href="">1단계</a>
+                </li>
+                <li>
+                    <a href="">2단계</a>
+                </li>
             </ul>
         </div>
     </header>
@@ -78,67 +137,67 @@
                     <img src="img/main/main1-01.png" alt="">
                </div>
                 <div class="slideRe">
-                    <div>
+                    <div class="item">
                         <p class="h5">집콕육아에 빛이 되어주는<br>학습 앱</p>
                         <span>- 인스타그램 syu****님 -</span>
                     </div>
-                    <div>
+                    <div class="item">
                         <p>숫자에 관심도 없던 아들이<br>순식간에 20까지 세었어요.</p>
                         <span>- 인스타그램 ilu***님 -</span>
                     </div>
-                    <div>
+                    <div class="item">
                         <p>엄마는 아이 공부를 위해,<br>아이는 즐거워서 선택하는 앱</p>
                         <span>- 블로그 알콩***님 -</span>
                     </div>
-                    <div>
+                    <div class="item">
                         <p>10년차 유치원교사인 제가<br> 유일하게 믿고 안심하며<br>아들에게 보여주는 앱이에요.</p>
                         <span>- 블로그 반짝***님 -</span>
                     </div>
-                    <div>
+                    <div class="item">
                         <p>학습을 놀이로 착각할 정도로<br>유아동을 위한 배려가 눈에<br>띈다</p>
                         <span>- 스마트앱어워드 심사평 -</span>
                     </div>
-                    <div>
+                    <div class="item">
                         <p>유튜브에 중독되다시피 한<br>아들이 너무 즐겁게 받아들려<br>놀랐어요!</p>
                         <span>- 플레이스토어 건***님 -</span>
                     </div>
-                    <div>
+                    <div class="item">
                         <p>매일 쥬니버스쿨 하는 시간은<br>엄마도 아빠도 안심되는<br>시간♥</p>
                         <span>- 플레이스토어 양***님 -</span>
                     </div>
-                    <div>
-                        <p>돈 주고 하는 학습지<br>컨ㅌㄴ츠보다 아이들이 더<br>좋아해요.</p>
+                    <div class="item">
+                        <p>돈 주고 하는 학습지<br>컨텐츠보다 아이들이 더<br>좋아해요.</p>
                         <span>- 플레이스토어 쑤***님 -</span>
                     </div>
-                    <div>
+                    <div class="item">
                         <p>4-7세 자녀 부모라면<br>아이들의 교육을 위해 꼭<br>설치해보시길!</p>
                         <span>- 플레이스토어 최***님 -</span>
                     </div>
-                    <div>
+                    <div class="item">
                         <p>현직 프로그래머가 코딩<br>공부하기 좋다고 추천해줘서<br>쓰기 시작했어요</p>
                         <span>- 인스타그램 kim***님 -</span>
                     </div>
-                    <div>
+                    <div class="item">
                         <p>할머니, 할아버지도 손주들<br>공부하라고 다운받는<br>쥬니버스쿨</p>
                         <span>- 인스타그램 god***님 -</span>
                     </div>
-                    <div>
+                    <div class="item">
                         <p>느린아이 부모라면 다 아는<br>천근아 교수님 연구진이라니!<br>믿고 갑니다♥</p>
                         <span>- 인스타그램 seu***님 -</span>
                     </div>
-                    <div>
+                    <div class="item">
                         <p>수학교사인 제가 봐도<br>콘텐츠가 쉽고 알차게<br>고성되어 있어요.</p>
                         <span>- 인스타그램 hye***님 -</span>
                     </div>
-                    <div>
+                    <div class="item">
                         <p>수학에 흥미를 잃지 않게<br>도와줘서 좋습니다. 강추!</p>
                         <span>- 인스타그램 pmo***님 -</span>
                     </div>
-                    <div>
+                    <div class="item">
                         <p>이 퀄리티에 무료라니..<br>쥬니버스쿨 덕분에 마음<br>편하게 집안일 해요</p>
                         <span>- 인스타그램 jm.***님 -</span>
                     </div>
-                    <div>
+                    <div class="item">
                         <p>제가 생각하는 가장 좋은<br>어린이 학습 앱이 아닐까<br>싶습니다.</p>
                         <span>- 인스타그램 dev*** -</span>
                     </div>
