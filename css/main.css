@@ -95,6 +95,9 @@ main section#one div.wrap .slideRe .item {
   box-sizing: border-box;
   margin: 0 15px;
 }
+.slick-prev{
+  
+}
 .slick-prev::before{
   font-size: 0 !important;
   width: 35px;
@@ -104,6 +107,8 @@ main section#one div.wrap .slideRe .item {
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: 10px;
+  position: absolute;
+  top: 0;
 }
 
 .slick-next::before{
@@ -217,9 +222,26 @@ section#three .wrap .threeSub{
   justify-content: space-between;
   margin-top: 100px;
 }
+
 section#three .wrap .threeSub li{
 
 }
+section#three .wrap .threeSub li:nth-child(1){
+  
+}
+section#three .wrap .threeSub li:nth-child(2){
+  
+}
+section#three .wrap .threeSub li:nth-child(3){
+  
+}
+section#three .wrap .threeSub li:nth-child(4){
+  
+}
+section#three .wrap .threeSub li:nth-child(5){
+  
+}
+
 section#three .wrap .threeSub li a{
   font-size: 25px;
   font-weight: 600;
@@ -230,11 +252,12 @@ section#three .wrap .threeSub li a{
   display: block;
   border-radius: 40px;
   text-align: center;
-  background-color: white;
   line-height: 2.8;
   background-color: #f3f5fc;
 }
-
+.threehover{
+  background-color: white !important;
+}
 section#three .wrap .threeSub li:nth-child(1) a::before{
   content: "";
   background-image: url(../img/main/main3-01.png);
@@ -297,7 +320,25 @@ section#three .wrap .subImg{
 section#three .wrap .subImg li{
   font-size: 0;
 }
-section#three .wrap .subImg li:not(:first-child){
+
+section#three .wrap .subImg li:nth-child(1){
+  
+  display: none;
+}
+section#three .wrap .subImg li:nth-child(2){
+  
+  display: none;
+}
+section#three .wrap .subImg li:nth-child(3){
+  
+  display: none;
+}
+section#three .wrap .subImg li:nth-child(4){
+  
+  display: none;
+}
+section#three .wrap .subImg li:nth-child(5){
+  
   display: none;
 }
 section#three .wrap .subImg li:nth-child(1)::before{
@@ -360,6 +401,8 @@ section#four{
 }
 section#four .wrap{
   position: relative;
+  height: 100%;
+  max-width: 82%;
 }
 section#four .wrap h2{
   font-weight: 600;
@@ -373,12 +416,18 @@ section#four .wrap h2::after{
   position: absolute;
   top: 31px;
   width: 119px;
-  right: 366px;
+  right: 614px;
   z-index: -1;
 }
+section#four .wrap .cenbox{
+  
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
 section#four .wrap .cen{
-  width: 882px;
-  margin: 0 auto;
+  width: 882px !important;
+  margin: 0 20px;
   margin-top: 80px;
 }
 section#four .wrap .cen.one{
@@ -386,15 +435,12 @@ section#four .wrap .cen.one{
 }
 section#four .wrap .cen.two{
   
-  display: none;
 }
 section#four .wrap .cen.three{
   
-  display: none;
 }
 section#four .wrap .cen.four{
   
-  display: none;
 }
 section#four .wrap .cen h3{
   background-color: #f2f5fb;
