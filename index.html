@@ -23,12 +23,13 @@
     <!-- 제이쿼리 -->
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
     <script type="text/javascript">
-    /*    $(document).ready(function(){
-            $("#title .wrap .side02").hover(function(){
-              $(this).addClass("sidehide");
+        $(document).ready(function(){
+            //about에 클릭시 스크롤 이동하게 만드시오
+            $("#title .titlebg > button").click(function(){
+                $("html,body").stop().animate({scrollTop:$(window).height()+280},300); 
+                return false;
             });
-           return false;
-        });*/
+        });
         $(window).scroll(function(){
             //헤드애니
             if($(window).scrollTop()>$("header").height()){//윈도우의 scrollTop위치값이 ~보다 커지면
@@ -38,7 +39,7 @@
            //   $("body").css("padding-top","0px");
                $("header").removeClass("headsub")               
             }
-         });
+        });
          
         $(document).ready(function(){            
             //대메뉴 a에 마우스 오버시 실행하시오
