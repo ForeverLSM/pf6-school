@@ -20,7 +20,7 @@
   height: 100%;  
   position: absolute;
   top: 0;  
-  z-index: -1;
+  z-index: -2;
   
   animation-name: bgimg;
   animation-duration: 1s;
@@ -86,7 +86,6 @@
   margin-left: 7px;
 }
 #title .titlebt {
-   
   margin-top: 20px;
 }
 #title .titlebt .cursor{
@@ -101,7 +100,8 @@
   font-weight: 600;
 }
 #title .titlebt .cursor:hover{
-  border-radius: 12px 12px 0px 0px;
+  
+  border-radius: 12px 12px 0 0;
 }
 #title .titlebg>button{
   /*! display: block; */
