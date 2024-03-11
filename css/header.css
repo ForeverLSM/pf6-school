@@ -163,6 +163,7 @@ header .wrap h1{
   background-image: url(../img/header/logo_pc.png);
   background-repeat: no-repeat;
   background-size: cover;
+  cursor: pointer;
 }
 header .wrap h1 a{
 

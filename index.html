@@ -25,7 +25,7 @@
     <script type="text/javascript">
         $(document).ready(function(){
             //about에 클릭시 스크롤 이동하게 만드시오
-            $("#title .titlebg > button").click(function(){
+            $("#title .titlebg a").click(function(){
                 $("html,body").stop().animate({scrollTop:$(window).height()+280},300); 
                 return false;
             });
@@ -107,9 +107,9 @@
        $(document).ready(function(){
             $('.slideRe').slick({
                     centerMode: true,
-                    centerPadding: '120px',
+                    centerPadding: '60px',
                     infinite: true,
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                     autoplay: true,
                     autoplaySpeed: 3000,
@@ -119,7 +119,7 @@
             });
             $('.cenbox').slick({
                     centerMode: true,
-                    centerPadding: '120px',
+                    centerPadding: '500px',
                     infinite: true,
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -201,7 +201,7 @@
                     <button class="cursor">앱다운받기</button>
                 </div>
             </div>
-            <button class="cursor">아래</button>
+            <a href="">아래</a>
         </div>
     </div>
     <!-- 메인영역 -->

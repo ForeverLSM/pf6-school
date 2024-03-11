@@ -40,7 +40,7 @@ main section#one div.wrap .onetop img {
 }
 main section#one div.wrap .slideRe {
   height: 300px;
-  width: 1062px;
+  width: 1290px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -72,28 +72,39 @@ main section#one div.wrap .slideRe .slick-list{
   height: 100%;
 }
 main section#one div.wrap .slideRe .slick-list .slick-track{
-  
   display: flex;
   align-items: center;
   height: 100%;
 }
-main section#one div.wrap .slideRe .item:hover{
-  
-  transform: scale(1.2);
-  transition: all 0.5s ease-in-out;
-  border: solid 3px #ffab31;
-  border-radius: 20px;
-  background-color: #fff8e3;
-  color: #ffab31 !important;
-}
+
 main section#one div.wrap .slideRe .item {
   width: 340px !important;
   height: 210px;
   border-radius: 20px;
   background-color: #e9ebf1;
-  padding: 30px 20px 30px 23px;
+  padding: 25px 20px 30px 23px;
   box-sizing: border-box;
-  margin: 0 15px;
+  margin: 0 25px;
+}
+main section#one div.wrap .slideRe .slick-list .slick-track .item{
+/*   transform: scale(1.1);
+  transition: 0.3s;
+  margin-bottom: 50px; */
+}
+main section#one div.wrap .slideRe .slick-list .slick-track .item.slick-center{
+  /*! display: block; */
+  transform: scale(1.1);
+  transition: 0.3s;
+  margin-bottom: 50px;
+  border: 3px solid #ffab31;
+  background-color: #fff8e3;
+  box-shadow: 0px 20px 8px #eee;
+}
+main section#one div.wrap .slideRe .slick-list .slick-track .item.slick-center p{
+  color: #ffab31;
+}
+main section#one div.wrap .slideRe .slick-list .slick-track .item.slick-center span{
+  color: #ffab31;
 }
 .slick-prev{
   
@@ -400,7 +411,7 @@ section#four{
 section#four .wrap{
   position: relative;
   height: 100%;
-  max-width: 82%;
+  max-width: 100%;
 }
 section#four .wrap h2{
   font-weight: 600;
@@ -414,24 +425,26 @@ section#four .wrap h2::after{
   position: absolute;
   top: 31px;
   width: 119px;
-  right: 614px;
+  right: 785px;
   z-index: -1;
 }
 section#four .wrap .cenbox{
   
   width: 100%;
-  height: 100%;
+  /*! height: 100%; */
   position: relative;
+  margin: 0 auto;
 }
 section#four .wrap .cenbox .slick-prev{
   position: absolute;
   width: 50px;
   height: 50px;
   z-index: 1;
-  left: 240px;
+  left: 420px;
   background-color: white;
   border-radius: 50%;
   box-shadow: 5px 5px 5px 1px #4545451c;
+  top: 200px;
 }
 section#four .wrap .cenbox .slick-prev::before{
   font-size: 0 !important;
@@ -443,15 +456,25 @@ section#four .wrap .cenbox .slick-prev::before{
   background-repeat: no-repeat;
   background-position-x: 10px;
 }
+section#four .wrap .cenbox .slick-list{
+  height: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 80px;
+}
+section#four .wrap .cenbox .slick-list .slick-track{
+  margin-top: 80px;
+}
 section#four .wrap .cenbox .slick-next{
   position: absolute;
   width: 50px;
   height: 50px;
   z-index: 1;
-  right: 390px;
+  right: 420px;
   background-color: white;
   border-radius: 50%;
   box-shadow: 5px 5px 5px 1px #4545451c;
+  top: 200px;
 }
 section#four .wrap .cenbox .slick-next::before{
   font-size: 0 !important;
@@ -465,12 +488,14 @@ section#four .wrap .cenbox .slick-next::before{
 }
 section#four .wrap .cen{
   width: 882px !important;
-  margin: 0 20px;
-  margin-top: 80px;
+  /*! height: 100%; */
+  margin: auto 10px;
 }
-section#four .wrap .cen.one{
-  
+section#four .wrap .cenbox .slick-list .slick-track .slick-center{
+  transform: translateY(-80px);
+  transition: 0.3s;
 }
+
 section#four .wrap .cen.two{
   
 }

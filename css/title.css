@@ -74,6 +74,7 @@
   border-radius: 10px;
   font-weight: 500;
 }
+
 #title .titlebg .titleft p::after{
   content:"";
   background-image: url(../img/title/ico_notice.png);
@@ -89,7 +90,6 @@
   margin-top: 20px;
 }
 #title .titlebt .cursor{
-
   width: 169px;
   height: 79px;
   background-color: black;
@@ -99,11 +99,10 @@
   font-size: 28px;
   font-weight: 600;
 }
-#title .titlebt .cursor:hover{
-  
+#title .titlebt .cursor:hover{  
   border-radius: 12px 12px 0 0;
 }
-#title .titlebg>button{
+#title .titlebg a{
   /*! display: block; */
   background-image: url(../img/title/btn_down.png);
   width: 50px;
